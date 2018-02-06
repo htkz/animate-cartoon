@@ -16,6 +16,7 @@ body {
 #code {
     overflow: scroll;
     height: 100%;
+    padding: 16px;
 }
 
 .code-wrapper {
