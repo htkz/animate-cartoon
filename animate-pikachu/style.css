@@ -61,3 +61,20 @@ body {
 #code {
     color: #96b38a;
 }
+
+
+@media (max-width: 500px) {
+    #code {
+        overflow: scroll;
+        height: 100%;
+        padding: 16px;
+    }
+    .code-wrapper,
+    .preview-wrapper {
+        flex: 1;
+        height: 50%;
+    }
+    body {
+        flex-direction: column;
+    }
+}
