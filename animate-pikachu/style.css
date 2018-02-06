@@ -63,7 +63,7 @@ body {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     #code {
         overflow: scroll;
         height: 100%;
