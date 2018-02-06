@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+#code {
+    overflow: scroll;
+    height: 100%;
+}
+
+.code-wrapper {
+    background-color: #282C34;
+    color: #ABB2BF;
+}
+
+.code-wrapper{
+    flex: 1;
+    height: 100%;
+}
+
+.preview-wrapper {
+    flex: 2;
+    height: 100%;
+}
+
+.preview {
+    height: 100%;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FEE433;
+}
+
+.wraper {
+    width: 100%;
+    height: 165px;
+    position: relative;
+}
+
+.token.selector {
+    color: #ddca7e;
+}
+.token.property {
+    color: #809bbd;
+}
+.token.comment {
+    color: #666;
+}
+#code {
+    color: #96b38a;
+}
